@@ -486,8 +486,8 @@ nav.sticky {
 @media (max-width: 575px) {
     .hero {
         flex-direction: column;
-        height: auto;
-        margin: 1% 0 0 0;
+        height: 100vh;
+        margin: 0% 0 0 0;
         padding: 0 2%;
         text-align: center;
     }
@@ -496,7 +496,7 @@ nav.sticky {
         flex-basis: 100%;
     }
     .hero-content {
-        margin: 15% 0 0 0;
+        margin: 0% 0 0 0;
         align-items: center;
     }
     .hero-content .small-title {
@@ -514,7 +514,7 @@ nav.sticky {
         font-size: 12px;
     }
     .banner-lottie {
-        margin-top: 30px;
+        margin-top: 10px;
         width: 300px;
         height: 200px;
         transform: translate3d(0px, 0px, 0px);
