@@ -488,8 +488,10 @@ nav.sticky {
         flex-direction: column;
         height: 100vh;
         margin: 0% 0 0 0;
-        padding: 0 2%;
+        padding: 0 1%;
         text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     .hero-content,
     .hero-banner {
@@ -514,7 +516,7 @@ nav.sticky {
         font-size: 12px;
     }
     .banner-lottie {
-        margin-top: 10px;
+        margin-top: 0px;
         width: 300px;
         height: 200px;
         transform: translate3d(0px, 0px, 0px);
